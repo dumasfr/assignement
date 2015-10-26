@@ -6,13 +6,13 @@ Coursera week 3 assignement
 
 ### the Script is heavily commented, pleasse look at the code for a detailed explanation of the logic used.
 
-the script does the following:
--empty the console
--reads all the necessary files
+the script does the following
+
+- empty the console and reads all the necessary files
 - merge the dt_train and dt_test as folloW:
--- first the training label from the y_* file
--- second the subject ID
--- the data
+  - first the training label from the y_* file
+  - second the subject ID
+  - the data
 - the 2 data frame are then merged into 1 data frame
 - get the column names data from the feature file
 - add the "Activity" and "Subject_ID" and column 2 of the feature data into a new vector
